@@ -16,6 +16,20 @@
 		background: #fff;
 	}
 
+  #transparent-div{
+    background-color: rgba(230, 230, 230, 0.60);
+    -moz-border-radius:20px;  /* for Firefox */
+    -webkit-border-radius:20px; /* for Webkit-Browsers */
+    border-radius:20px; /* regular */
+    width: 600px;
+    color: #df0000;
+  }
+
+  #signup{
+    background-color:#dF0000;
+    color: #ffffff;
+  }
+
 		body.is-loading *
 		{
 			-moz-transition: none !important;
@@ -421,7 +435,7 @@
 				height: 5em;
 				line-height: 4.5em;
 				padding: 0;
-				background-image: url('images/dark-arrow.svg');
+				background-image: url('images/red-arrow.svg');
 				background-position: center center;
 				background-repeat: no-repeat;
 				text-indent: -10em;
@@ -619,7 +633,7 @@
 				}
 				
 				.dark .button.style2.down {
-					background-image: url('images/dark-arrow.svg');
+					background-image: url('images/red-arrow.svg');
 				}
 		
 /*********************************************************************************/
